@@ -13,7 +13,8 @@ export default function TodoCardCheck({ toggleTodo, disabled, done }: TodoCardCh
     <div 
       style={{
         borderRadius: 8,
-        backgroundColor: disabled ? 'gray' : '#40513B',
+        backgroundColor: '#40513B',
+        opacity: disabled ? .3333 : 1,
         width: 24,
         height: 24,
         marginLeft: 8,
