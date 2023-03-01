@@ -13,17 +13,6 @@ func getTodos(c *gin.Context) {
 	c.JSON(http.StatusOK, todos)
 }
 
-func getTodo(c *gin.Context) {
-	for _, t := range todos {
-		if t.ID == c.Param("id") {
-			c.JSON(http.StatusOK, t)
-			return
-		}
-	}
-
-	c.JSON(http.StatusNotFound, gin.H{"error": "todo not found"})
-}
-
 func createTodo(c *gin.Context) {
 	body := &Body{}
 

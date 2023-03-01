@@ -21,7 +21,6 @@ func main() {
 	})
 
 	r.GET("/todos", getTodos)
-	r.GET("/todos/:id", getTodo)
 	r.POST("/todos", createTodo)
 	r.PATCH("/todos/:id", updateTodo)
 	r.DELETE("/todos/:id", deleteTodo)
