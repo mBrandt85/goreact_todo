@@ -13,7 +13,7 @@ From root run command:
 
 [Client Vite project](http://localhost:5173/)
 
-[Client #2 Create React project](http://localhost:5173/)
+[Client #2 Create React project](http://localhost:3000/)
 
 ### GO
 [Link to GO](https://go.dev/)
