@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "concurrently \"cd api && go run .\" \"cd client && npm run dev\" \"cd demo && npm run start\"",
+    "install": "npm run install-client && npm run install-demo",
+    "install-client": "cd client && npm install",
+    "install-demo": "cd demo && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
