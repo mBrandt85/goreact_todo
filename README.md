@@ -9,6 +9,12 @@ From root run command:
 From root run command: 
 `npm run start`
 
+[API endpoint](http://localhost:4000/)
+
+[Client Vite project](http://localhost:5173/)
+
+[Client #2 Create React project](http://localhost:5173/)
+
 ### GO
 [Link to GO](https://go.dev/)
 
