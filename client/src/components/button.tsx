@@ -33,7 +33,6 @@ export default function Button({
       cursor: disabled ? 'not-allowed' : 'pointer',
       boxShadow: disabled ? 'none' : `${hover ? '0 0' : '2px 2px'} 0 #EDF1D6`,
       transform: disabled ? 'none' : hover ? `translate(2px, 2px)` : 'translate(0px, 0px)'
-      //boxShadow: `2px 2px 0 #${disabled ? 'darkgray' : hover ? '40513B' : 'EDF1D6'}`
     }}
     onMouseEnter={() => setHover(true)}
     onMouseLeave={() => setHover(false)}
