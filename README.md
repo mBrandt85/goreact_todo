@@ -1,10 +1,16 @@
 # goreact_todo
 GO REST API with React client
 
-## Install
-From ROOT
+## Setup projects
+From root run command: 
 `npm run install`
 
 ## Start
-From ROOT
+From root run command: 
 `npm run start`
+
+### GO
+[Link to GO](https://go.dev/)
+
+### React
+[Link to React](https://reactjs.org/)
